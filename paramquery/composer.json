@@ -1,0 +1,26 @@
+{
+    "name": "soulminato/paramquery",
+    "description": "Paramquery Library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edison Patron",
+            "email": "sanjisan29@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SoulMinato\\Paramquery\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SoulMinato\\Paramquery\\ParamqueryServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
